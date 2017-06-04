@@ -60,7 +60,9 @@ It is nice to know that you are not alone and can share your knowledge and ask y
 ### Being professional (offtop)
 Everybody wants to become better but not everybody wants to change something. Evolution is developing even more intelligent and adapted organisms, it makes little random (or not) changes (mutations) in every generation and this is how it works, this is a way how to become better. And we have to do this - make changes to become better professional: try to use best practices, methods and techniques, learn, analyse and share to become better professional. But being professional does not mean only write better code and unit-tests, have a lot of experience in Java or JS, it means that you take **responsibility** for what you are doing and if you fail - you will use this fail as an opportunity to become better and will keep going forward. So use your intelligence, beat the fear of changes and remember:
 
-![With great power comes great responsibitlity](http://i3.kym-cdn.com/photos/images/facebook/000/933/845/c3a.jpg "With great power comes great responsibitlity")
+<p align="center">
+  <img src="http://i3.kym-cdn.com/photos/images/facebook/000/933/845/c3a.jpg" alt="responsibility" width="300"/>
+</p>
 
 [link_gitflow]: http://nvie.com/posts/a-successful-git-branching-model/
 [link_git_commit_best_practices]: https://chris.beams.io/posts/git-commit/
