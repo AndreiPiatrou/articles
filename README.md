@@ -57,8 +57,8 @@ It is important to have real-time vision of plan, state and progress of whole co
 ### Our developer community
 It is nice to know that you are not alone and can share your knowledge and ask your teammates for help. We set up technical-minutes (15 minute meeting a couple times a week) to share, discuss or ask about something. Also we have slack channels for this purposes so in case if you know or want to know something useful - feel free to contact with team mates! :smile:
 
-### Being professional (offtop)
-Everybody wants to become better but not everybody wants to change something. Evolution is developing even more intelligent and adapted organisms, it makes little random (or not) changes (mutations) in every generation and this is how it works, this is a way how to become better. And we have to do this - make changes to become better professional: try to use best practices, methods and techniques, learn, analyse and share to become better professional. But being professional does not mean only write better code and unit-tests, have a lot of experience in Java or JS, it means that you take **responsibility** for what you are doing and if you fail - you will use this fail as an opportunity to become better and will keep going forward. So use your intelligence, beat the fear of changes and remember:
+### Being professional (off-top)
+To be a good progessional you have to learn, analyse, use best practices, methods and techniques and **share**. But being professional does not mean only write beautiful code and unit-tests, have a lot of experience in Java or JS, it means that you don't try but just **do**, take **responsibility** for what you are doing and remember:
 
 <p align="center">
   <img src="http://i3.kym-cdn.com/photos/images/facebook/000/933/845/c3a.jpg" alt="responsibility" width="300"/>
