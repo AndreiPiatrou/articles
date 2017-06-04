@@ -1,3 +1,20 @@
+### Table of content
+<!-- MarkdownTOC autolink="true" bracket="round" -->
+
+- [Gitflow](#gitflow)
+- [Branch naming and commit messages](#branch-naming-and-commit-messages)
+- [Pull requests](#pull-requests)
+- [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
+- [Static code analysis](#static-code-analysis)
+- [Tests](#tests)
+- [Versioning](#versioning)
+- [Communication](#communication)
+- [Our developer community](#our-developer-community)
+- [Being professional \(off-top\)](#being-professional-off-top)
+
+<!-- /MarkdownTOC -->
+
+
 ### Gitflow
 We use usual [gitflow][link_gitflow] practices:
 
