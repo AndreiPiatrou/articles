@@ -16,7 +16,7 @@
 
 
 ### GitFlow
-We use usual [gitflow][link_gitflow] practices:
+We use usual [gitflow][link_gitflow] practices for compicated solutions with strict release, beta and and other special rules:
 
 1. `master` branch is used only for released sources
 2. `develop` branch is used for development purposes
