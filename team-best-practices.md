@@ -15,7 +15,6 @@
 
 <!-- /MarkdownTOC -->
 
-
 ### GitFlow
 We use usual [gitflow][link_gitflow] practices for compicated solutions with strict release, beta and and other special rules:
 
@@ -43,7 +42,6 @@ So instead, people prefer using it's simplified version: [githubflow][link_githu
 5. Additional branches (`staging`, `uat`, etc.) can be created for deployment purposes
 
 #### Branch naming and commit messages
-
 1. Commit messages follow `[JIRA_ID] SHORT_DESCRIPTION\n\nDETAILED_EXPLANATION` pattern. Every commit should contain link to corresponding Jira ticket. Branch names does not have strictly defined pattern.
 2. In rare cases, when there is no Jira ticket exists, special `[DEV]` prefix can be used
 3. `SHORT_DESCRIPTION` and `DETAILED_EXPLANATION` parts of commit message should be descriptive and clear, see [this article][link_git_commit_best_practices] and follow this practices
