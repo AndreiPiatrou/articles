@@ -1,3 +1,4 @@
+## Table of content
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [GitFlow](#gitflow)
