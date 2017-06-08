@@ -2,7 +2,9 @@
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [GitFlow](#gitflow)
+	- [Branch naming and commit messages](#branch-naming-and-commit-messages)
 - [GitHubFlow](#githubflow)
+	- [Branch naming and commit messages](#branch-naming-and-commit-messages-1)
 - [Pull requests](#pull-requests)
 - [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
 - [Static code analysis](#static-code-analysis)
