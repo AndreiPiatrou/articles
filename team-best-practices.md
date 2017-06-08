@@ -8,7 +8,7 @@
 - [Pull requests](#pull-requests)
 - [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
 - [Static code analysis](#static-code-analysis)
-	- [Tests](#tests)
+- [Tests](#tests)
 - [Versioning](#versioning)
 - [Communication](#communication)
 - [Our developer community](#our-developer-community)
@@ -70,7 +70,7 @@ Usually we use TeamCity ([Automatic bootstrapper][link_teamcity]) or Jenkins (es
 Every platform and language has its own great tools for static code analysis: [eslint][link_eslint] for JS, [rubocop][link_rubocop] for ruby, [lint][link_android_lint] for Android Studio and etc. So please configure and use this tools in your coding workflow and follow its recommendations and rules.
 Also there are great tools such as [SonarQube][link_sonarcube] that can do static code analysis, find potential bugs, calculate technical debt, visualize a lot of statistics for almost every language. It helps improve your coding skills and projects overall that you are working on. So configure SonarQube on your projects (in case if it was not done yet) and be happy! :smile:
 
-### Tests
+## Tests
 We greatly recommend to write unit- and integration tests for your code because:
 1. It is great documentation for your code
 2. It does not allow to break existing code
