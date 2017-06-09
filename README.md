@@ -3,4 +3,3 @@
 - [Team best practices][team-best-practices.md]
 - [Time management][time-management.md]
 - [My favorite][my-favorite.md]
-
