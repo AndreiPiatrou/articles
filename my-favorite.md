@@ -20,6 +20,7 @@
 [link_razbor_poletov]: http://razbor-poletov.com/
 [link_shift_m]: https://soundcloud.com/yegor256
 [link_disgusting_men]: http://disgustingmen.com/category/podkasts/
+[link_habr]: https://habrahabr.ru/
 [link_yegor_blog]: http://www.yegor256.com/
 [link_ideal_programmer]: https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073
 [link_jedai_tecniques]: https://oz.by/books/more10584051.html
