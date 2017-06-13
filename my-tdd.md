@@ -7,7 +7,7 @@
 5. Do not debug at all because we do know how code works through tests.
 6. Document code.
 
-### Existing misunderstanding 
+### Existing misunderstanding
 But there are some points that a lot of developers are complaining about:
 
 1. They don't understand the fact that tests need for them and only for them but not for managers, business owners and target users.
