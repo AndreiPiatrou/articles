@@ -23,7 +23,7 @@ There are a tons of books about time management and a lot of tracking systems in
 Also there are a lot of references on another more deep and teoretical literature but if you are novice, like I am, this book is a good start.
 
 ## Tools that I use
-Every developer has its own toolset so here is mine.
+Every developer has its own favorite toolset so here is mine.
 
 ### Todoist
 I have tried a couple of web apps and mobile application for task management and figured out that the most suitable for me is [Todoist][link_todoist]. Its features:
@@ -38,7 +38,7 @@ I have tried a couple of web apps and mobile application for task management and
 Everybody uses calendars but if you itegrate todoist into your calendar this bundle becomes really powerful.
 
 ## Sum up
-Knowledge from that book and described tools are very useful for me in everyday activities and I hope you can find something interesting in them for you too.
+Knowledge from that book and described tools are very useful for me in everyday activities and I hope you can find something interesting in them for you as well.
 
 [link_jedai_book]: https://oz.by/books/more10584051.html
 [link_todoist]: https://todoist.com
