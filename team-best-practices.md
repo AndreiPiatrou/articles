@@ -44,7 +44,7 @@ So instead, people prefer using it's simplified version: [githubflow][link_githu
 
 ### Branch naming and commit messages
 1. Commit messages follow `[JIRA_ID] SHORT_DESCRIPTION\n\nDETAILED_EXPLANATION` pattern. Every commit should contain a link to corresponding Jira ticket. Branch names do not have a strictly defined pattern.
-2. In rare cases, when there is no Jira ticket exists, special `[DEV]` prefix can be used
+2. In rare cases, when there is no Jira ticket exists, special `[DEV]` prefix can be used.
 3. `SHORT_DESCRIPTION` and `DETAILED_EXPLANATION` parts of commit message should be descriptive and clear, see [this article][link_git_commit_best_practices] and follow this practices.
 
 ## Pull requests
@@ -87,7 +87,7 @@ Usually, we use:
 2. Emails for more official and important messaging.
 3. JIRA/Github as progress, time and task tracking system.
 
-It is important to have a real-time vision of plan, state, and progress of the whole company and to reach this goal we have to track our progress, notify about changes and resolve concerns as soon as possible. Described communication and tracking systems allow us to do this, so do not sit and wait when your concern will be resolved or you will be asking about it but ask and let others know. This is how [reactive systems][link_reactive_systems] work and we have to behave the same way.
+It is important to have a real-time vision of plan, state, and progress of the whole company and to reach this goal we have to track our progress, notify about changes and resolve concerns as soon as possible. Described communication and tracking systems allow us to do this, so do not sit and wait when your concern will be resolved or you will be asked about it but ask and let others know. This is how [reactive systems][link_reactive_systems] work and we have to behave the same way.
 
 ## Our developer community
 It is nice to know that you are not alone and can share your knowledge and ask your teammates for help. We set up technical-minutes (15 minute meeting a couple times a week) to share, discuss or ask about something. Also, we have slack channels for this purposes so in case if you know or want to know something useful - feel free to contact with teammates! :smile:
