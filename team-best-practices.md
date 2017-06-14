@@ -17,7 +17,7 @@
 <!-- /MarkdownTOC -->
 
 ## GitFlow
-We use usual [gitflow][link_gitflow] practices for compicated solutions with strict release, beta and and other special rules:
+We use usual [gitflow][link_gitflow] practices for complicated solutions with a strict release, beta and other special rules:
 
 1. `master` branch is used only for released sources.
 2. `develop` branch is used for development purposes.
@@ -25,7 +25,7 @@ We use usual [gitflow][link_gitflow] practices for compicated solutions with str
 4. `bugfix` branch is used for bugfixes.
 5. Direct commits for `master|develop` are not allowed.
 6. Every change should be done by pull request.
-7. Also tags can be used for special cases.
+7. Also, tags can be used for special cases.
 
 ### Branch naming and commit messages
 1. `feature|bugfix` branch have `feature|bugfix/PROJNAME-TICKET_ID:SHORT_DESCRIPTION` naming pattern. This practice allows to link every branch and pull request with git history
@@ -36,14 +36,14 @@ However, GitFlow is considered overly complex.
 
 So instead, people prefer using it's simplified version: [githubflow][link_githubflow] ([translation][link_githubflow_ru]).
 
-1. `master` branch is used as main *stable* branch.
+1. `master` branch is used as a main *stable* branch.
 2. Direct commits for `master|develop` are not allowed.
 3. Every change should be done by pull request.
-4. Also tags can be used for special cases.
+4. Also, tags can be used for special cases.
 5. Additional branches (`staging`, `uat`, etc.) can be created for deployment purposes.
 
 ### Branch naming and commit messages
-1. Commit messages follow `[JIRA_ID] SHORT_DESCRIPTION\n\nDETAILED_EXPLANATION` pattern. Every commit should contain link to corresponding Jira ticket. Branch names does not have strictly defined pattern.
+1. Commit messages follow `[JIRA_ID] SHORT_DESCRIPTION\n\nDETAILED_EXPLANATION` pattern. Every commit should contain a link to corresponding Jira ticket. Branch names do not have a strictly defined pattern.
 2. In rare cases, when there is no Jira ticket exists, special `[DEV]` prefix can be used
 3. `SHORT_DESCRIPTION` and `DETAILED_EXPLANATION` parts of commit message should be descriptive and clear, see [this article][link_git_commit_best_practices] and follow this practices.
 
@@ -64,30 +64,30 @@ Every project should have its own CI/CD jobs and this approach gives:
 4. Freedom from thoughts: "does my code pass tests and quality check, how to deliver my changes to users".
 5. Transparent development workflow, so developers can concentrate only on features and does not spend time on stuff that definitely should be automated.
 
-Usually we use TeamCity ([Automatic bootstrapper][link_teamcity]) or Jenkins (especially [jenkins pipelines][link_jenkins_pipeline]) for CI/CD purposes. This tools cover all requirements, has a lot of useful and open-source plugins and it is free.
+Usually we use TeamCity ([Automatic bootstrapper][link_teamcity]) or Jenkins (especially [jenkins pipelines][link_jenkins_pipeline]) for CI/CD purposes. These tools cover all requirements, has a lot of useful and open-source plugins and it is free.
 
 ## Static code analysis
-Every platform and language has its own great tools for static code analysis: [eslint][link_eslint] for JS, [rubocop][link_rubocop] for ruby, [lint][link_android_lint] for Android Studio and etc. So please configure and use this tools in your coding workflow and follow its recommendations and rules.
-Also there are great tools such as [SonarQube][link_sonarcube] that can do static code analysis, find potential bugs, calculate technical debt, visualize a lot of statistics for almost every language. It helps improve your coding skills and projects overall that you are working on. So configure SonarQube on your projects (in case if it was not done yet) and be happy! :smile:
+Every platform and language has its own great tools for static code analysis: [eslint][link_eslint] for JS, [rubocop][link_rubocop] for Ruby, [lint][link_android_lint] for Android Studio and etc. So please configure and use this tools in your coding workflow and follow its recommendations and rules.
+Also, there are great tools such as [SonarQube][link_sonarcube] that can do static code analysis, find potential bugs, calculate technical debt, visualize a lot of statistics for almost every language. It helps improve your coding skills and projects overall that you are working on. So configure SonarQube on your projects (in case if it was not done yet) and be happy! :smile:
 
 ## Tests
-We greatly recommend to write unit- and integration tests for your code because:
+We greatly recommend writing unit- and integration tests for your code because:
 1. It is great documentation for your code.
 2. It does not allow to break existing code.
 3. Any developer can change any piece of code without fear and be sure that everything is working as expected and even better!
-4. Code is written faster so you have more time for cookies.
-5. Team can (should) establish certain requirements for test coverage on CI server.
+4. The code is written faster so you have more time for cookies.
+5. The team can (should) establish certain requirements for test coverage on CI server.
 
 ## Versioning
 [Semantic Versioning][link_semversioning] is a great practice for transparent and clear product versioning. It is flexible and satisfies almost any product requirements.
 
 ## Communication
-Usually we use:
+Usually, we use:
 1. Slack or Skype for real-time communication and notifications from services.
 2. Emails for more official and important messaging.
-3. JIRA/github as progress, time and task tracking system.
+3. JIRA/Github as progress, time and task tracking system.
 
-It is important to have real-time vision of plan, state and progress of whole company and to reach this goal we have to track our progress, notify about changes and resolve concerns as soon as possible. Described communication and tracking systems allow us to do this, so do not sit and wait when your concern will be resolved or you will be asking about is but ask and let others know. This is how [reactive systems][link_reactive_systems] work and we have behave the same way.
+It is important to have a real-time vision of plan, state, and progress of the whole company and to reach this goal we have to track our progress, notify about changes and resolve concerns as soon as possible. Described communication and tracking systems allow us to do this, so do not sit and wait when your concern will be resolved or you will be asking about is but ask and let others know. This is how [reactive systems][link_reactive_systems] work and we have to behave the same way.
 
 ## Our developer community
 It is nice to know that you are not alone and can share your knowledge and ask your teammates for help. We set up technical-minutes (15 minute meeting a couple times a week) to share, discuss or ask about something. Also, we have slack channels for this purposes so in case if you know or want to know something useful - feel free to contact with teammates! :smile:
