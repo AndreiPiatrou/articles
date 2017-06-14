@@ -32,7 +32,7 @@ I have tried a couple of web apps and mobile application for task management and
 3. Own [DSL][link_dsl] that helps to create tasks very fast without any additional clicks and interactions, only keyboard. And I really like this feature, for example, you can type `#Personal today start listening to new podcast series` and todoist will automatically create a task for `Personal` project for today. This ability makes this feature really useful.
 4. Calendars integration.
 5. Free plans that cover 99% of everyday requirements.
-6. Every day and overall score. It sounds like the senseless feature but if you like to contest yourself and have some kind of statistics and visualizations this feature can give you this.
+6. Every day and overall score. It sounds like a senseless feature but if you like to contest yourself and have some kind of statistics and visualizations this feature can give you this.
 
 ### Usual calendar
 Everybody uses calendars but if you integrate todoist into your calendar this bundle becomes really powerful.
