@@ -23,7 +23,7 @@ We use usual [gitflow][link_gitflow] practices for complicated solutions with a 
 2. `develop` branch is used for development purposes.
 3. `feature` branch is used for new features.
 4. `bugfix` branch is used for bugfixes.
-5. Direct commits for `master|develop` are not allowed.
+5. Direct commits to `master|develop` are not allowed.
 6. Every change should be done by pull request.
 7. Also, tags can be used for special cases.
 
@@ -37,7 +37,7 @@ However, GitFlow is considered overly complex.
 So instead, people prefer using it's simplified version: [githubflow][link_githubflow] ([translation][link_githubflow_ru]).
 
 1. `master` branch is used as a main *stable* branch.
-2. Direct commits for `master|develop` are not allowed.
+2. Direct commits to `master|develop` are not allowed.
 3. Every change should be done by pull request.
 4. Also, tags can be used for special cases.
 5. Additional branches (`staging`, `uat`, etc.) can be created for deployment purposes.
