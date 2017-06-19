@@ -5,7 +5,7 @@
 	- [Branch naming and commit messages](#branch-naming-and-commit-messages)
 - [GitHubFlow](#githubflow)
 	- [Branch naming and commit messages](#branch-naming-and-commit-messages-1)
-- [Pull requests](#pull-requests)
+- [Pull requests and code review](#pull-requests-and-code-review)
 - [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
 - [Static code analysis](#static-code-analysis)
 - [Tests](#tests)
@@ -47,12 +47,12 @@ So instead, people prefer using it's simplified version: [githubflow][link_githu
 2. In rare cases, when there is no Jira ticket exists, special `[DEV]` prefix can be used.
 3. `SHORT_DESCRIPTION` and `DETAILED_EXPLANATION` parts of commit message should be descriptive and clear, see [this article][link_git_commit_best_practices] and follow this practices.
 
-## Pull requests
-It is required to push your code by pull requests and every pull request should be reviewed by two or more team members. This practice is used to:
+## Pull requests and code review
+It is *required* to push your code by pull requests and *every* pull request should be reviewed by two or more team members. This practice is used to:
 
 1. Share knowledge, code style and coding practices in both directions.
 2. Avoid bugs and unclear and hard-to-understand code.
-3. Run tests and linters for changed code.
+3. Build artifacts, run tests and linters for changed code.
 4. Store clear changelog in git commit history.
 
 ## Continuous Integration / Continuous Delivery
@@ -64,7 +64,7 @@ Every project should have its own CI/CD jobs and this approach gives:
 4. Freedom from thoughts: "does my code pass tests and quality check, how to deliver my changes to users".
 5. Transparent development workflow, so developers can concentrate only on features and does not spend time on stuff that definitely should be automated.
 
-Usually we use TeamCity ([Automatic bootstrapper][link_teamcity]) or Jenkins (especially [jenkins pipelines][link_jenkins_pipeline]) for CI/CD purposes. These tools cover all requirements, has a lot of useful and open-source plugins and it is free.
+Usually we use Jenkins (especially [jenkins pipelines][link_jenkins_pipeline]) or TeamCity ([Automatic bootstrapper][link_teamcity]) for CI/CD purposes. These tools cover all requirements, has a lot of useful and open-source plugins and it is free.
 
 ## Static code analysis
 Every platform and language has its own great tools for static code analysis: [eslint][link_eslint] for JS, [rubocop][link_rubocop] for Ruby, [lint][link_android_lint] for Android Studio and etc. So please configure and use this tools in your coding workflow and follow its recommendations and rules.
@@ -72,7 +72,7 @@ Also, there are great tools such as [SonarQube][link_sonarcube] that can do stat
 
 ## Tests
 We greatly recommend writing unit- and integration tests for your code because:
-1. It is great documentation for your code.
+1. It is a great documentation for your code.
 2. It does not allow to break existing code.
 3. Any developer can change any piece of code without fear and be sure that everything is working as expected and even better!
 4. The code is written faster so you have more time for cookies.
