@@ -1,10 +1,10 @@
 ## Table of content
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
-- [GitFlow](#gitflow)
+- [Branching models](#branching-models)
+	- [GitFlow](#gitflow)
+	- [GitHubFlow](#githubflow)
 	- [Branch naming and commit messages](#branch-naming-and-commit-messages)
-- [GitHubFlow](#githubflow)
-	- [Branch naming and commit messages](#branch-naming-and-commit-messages-1)
 - [Pull requests and code review](#pull-requests-and-code-review)
 - [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
 - [Static code analysis](#static-code-analysis)
@@ -16,9 +16,12 @@
 
 <!-- /MarkdownTOC -->
 
-## GitFlow
-We use usual [gitflow][link_gitflow] practices for complicated solutions with a strict release, beta and other special rules:
+## Branching models
+There are two options that are used on our projects:
+1. [GitFlow][link_gitflow] is used for complicated solutions with a strict release, beta and other special rules.
+2. [GithubFlow][link_githubflow] [translation][link_githubflow_ru]) is used when we need the most simple and transparent code flow.
 
+### GitFlow
 1. `master` branch is used only for released sources.
 2. `develop` branch is used for development purposes.
 3. `feature` branch is used for new features.
@@ -27,15 +30,7 @@ We use usual [gitflow][link_gitflow] practices for complicated solutions with a 
 6. Every change should be done by pull request.
 7. Also, tags can be used for special cases.
 
-### Branch naming and commit messages
-1. `feature|bugfix` branch have `feature|bugfix/PROJNAME-TICKET_ID:SHORT_DESCRIPTION` naming pattern. This practice allows to link every branch and pull request with git history
-2. Commit messages should be descriptive and clear, see [this article][link_git_commit_best_practices] and follow this practices.
-
-## GitHubFlow
-However, GitFlow is considered overly complex.
-
-So instead, people prefer using it's simplified version: [githubflow][link_githubflow] ([translation][link_githubflow_ru]).
-
+### GitHubFlow
 1. `master` branch is used as a main *stable* branch.
 2. Direct commits to `master|develop` are not allowed.
 3. Every change should be done by pull request.
@@ -43,9 +38,9 @@ So instead, people prefer using it's simplified version: [githubflow][link_githu
 5. Additional branches (`staging`, `uat`, etc.) can be created for deployment purposes.
 
 ### Branch naming and commit messages
-1. Commit messages follow `[JIRA_ID] SHORT_DESCRIPTION\n\nDETAILED_EXPLANATION` pattern. Every commit should contain a link to corresponding Jira ticket. Branch names do not have a strictly defined pattern.
-2. In rare cases, when there is no Jira ticket exists, special `[DEV]` prefix can be used.
-3. `SHORT_DESCRIPTION` and `DETAILED_EXPLANATION` parts of commit message should be descriptive and clear, see [this article][link_git_commit_best_practices] and follow this practices.
+1. `feature|bugfix` branch have `feature|bugfix/JIRAID-short-description` naming pattern. 
+1. Commit messages follow `Short description\n\nDetailed explanaition[optional]` pattern. 
+4. `Short description` and `Detailed explanaition` parts of commit message should be descriptive and clear (example `Update user view`, `Fix login form typo`), see [this article][link_git_commit_best_practices] and follow this practices.
 
 ## Pull requests and code review
 It is *required* to push your code by pull requests and *every* pull request should be reviewed by two or more team members. This practice is used to:
@@ -54,6 +49,8 @@ It is *required* to push your code by pull requests and *every* pull request sho
 2. Avoid bugs and unclear and hard-to-understand code.
 3. Build artifacts, run tests and linters for changed code.
 4. Store clear changelog in git commit history.
+
+Pull request name should follow `JIRAID: short description\n\nDetailed explanation[optional]` pattern.
 
 ## Continuous Integration / Continuous Delivery
 Every project should have its own CI/CD jobs and this approach gives:
