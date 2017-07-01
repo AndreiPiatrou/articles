@@ -4,7 +4,6 @@ I was needed to pass a generic number of actions from controller scope to compon
 ## Step #1
 The first and the most straightforward idea was this:
 
-### Code
 ```javascript
 // controller.js
 export default Ember.Controller.extend({
@@ -85,6 +84,7 @@ export default Ember.Component.extend({
 
 ## Step #4 (final)
 After some googling, I have found this [article][link_article] and it has filled my missed knowledge about how to work with actions in EmberJS. The main idea is that we can use action closures instead of `this.sendAction()` and pass actions directly to `{{action myAction}}` helper. So we wipe up the mixin and use built-in action propagation. Here is the final code:
+```javascript
 // controller.js
 export default Ember.Controller.extend({
     actions: {
