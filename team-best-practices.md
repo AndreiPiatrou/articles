@@ -34,7 +34,7 @@ There are two options that are used on our projects:
 
 #### Branch naming and commit messages
 1. `feature|bugfix` branch have `feature|bugfix/JIRAID-short-description` naming pattern. This practice allows to link every branch and pull request with git history.
-2. `Short description` and `Detailed explanaition` parts of commit message should be descriptive and clear (example `Update user view`, `Fix login form typo`). See [this article][link_git_commit_best_practices] and follow this practices.
+2. Commit messages should follow `component-that-you-are-working-on: actual changes` pattern. Example: `user-form: add registration link`.
 
 ### GitHubFlow
 1. `master` branch is used as a main *stable* branch.
@@ -46,8 +46,7 @@ There are two options that are used on our projects:
 
 #### Branch naming and commit messages
 1. Branches do not have strict naming rules except `branch-name` pattern.
-2. Commit messages follow `JIRAID Short description\n\nDetailed explanaition[optional]` pattern. Every commit should contain a link to corresponding JIRA ticket.
-3. `Short description` and `Detailed explanaition` parts of commit message should be descriptive and clear, see [this article][link_git_commit_best_practices] and follow this practices.
+2. Commit messages should follow `JIRAID component-that-you-are-working-on: actual changes` pattern. Every commit should contain a link to corresponding JIRA ticket.
 
 ## Pull requests and code review
 It is *required* to push your code by pull requests and *every* pull request should be reviewed by two or more team members. This practice is used to:
