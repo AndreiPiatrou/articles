@@ -105,7 +105,6 @@ To be a good professional you have to learn, analyze, use best practices, method
 [link_gitflow]: http://nvie.com/posts/a-successful-git-branching-model/
 [link_githubflow]: https://lucamezzalira.com/2014/03/10/git-flow-vs-github-flow/
 [link_githubflow_ru]: https://habrahabr.ru/post/189046/
-[link_git_commit_best_practices]: https://chris.beams.io/posts/git-commit/
 [link_jenkins_pipeline]: https://jenkins.io/doc/book/pipeline/
 [link_eslint]: http://eslint.org/
 [link_rubocop]: https://github.com/bbatsov/rubocop
