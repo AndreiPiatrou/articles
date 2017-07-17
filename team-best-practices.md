@@ -7,7 +7,7 @@
 	- [GitHubFlow](#githubflow)
 		- [Branch naming and commit messages](#branch-naming-and-commit-messages-1)
 - [Pull requests and code review](#pull-requests-and-code-review)
-		- [How to work in your feature branch](#how-to-work-in-your-feature-branch)
+	- [How to work in your feature branch](#how-to-work-in-your-feature-branch)
 - [Continuous Integration / Continuous Delivery](#continuous-integration--continuous-delivery)
 - [Static code analysis](#static-code-analysis)
 - [Tests](#tests)
@@ -59,7 +59,7 @@ It is *required* to push your code by pull requests and *every* pull request sho
 
 Pull request name should follow `JIRAID: short description\n\nDetailed explanation[optional]` pattern.
 
-#### How to work in your feature branch
+### How to work in your feature branch
 In case if you need to implement some big feature and working in your own feature branch sometimes happens that when your pull request is ready on Github you see that there are some conflicts between your branch and develop which will be difficult to resolve since you are working in your own branch for a couple of days/weeks and a lot of files have changed in both branches. To prevent this situation it is useful to merge every accepted pull request in develop branch or merge at least every a couple of days develop into your feature branch. This approach allows:
 
 1. Prevent difficult and time consuming merge with target branch.
