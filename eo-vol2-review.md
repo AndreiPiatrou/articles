@@ -9,7 +9,7 @@ Pros:
 4. EO is a good book to diversify your **classic** OOP library with some another vision and ideas.
 
 Cons:
-1. Some Yegor's suggestions are not applicable in real world and benefits are not so noticable to rewrite all existing code and frameworks by his ideas.
+1. Some Yegor's suggestions are not applicable in real world and benefits are not so noticeable to rewrite all existing code and frameworks by his ideas.
 2. Some ideas, like `containers` and `getters`, seem to me as fictional problems and were described just to make some hype and discussions.
 
 As a result of this short review, I want to say that EO has a right to take a place in your developer library and can show another way of OOP.exciting to me also Yegor was promoting his book in that podcast so I desided to get one and come closer to his ideas.
