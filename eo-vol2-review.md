@@ -1,5 +1,5 @@
 ## Elegant Objects (vol 2) review
-I found out about Yegor by "Рабор Полетов" podcast [episode 105][http://razbor-poletov.com/2016/03/episode-105.html]. His ideas about OOP and management seemed very interesting and exciting to me also Yegor was promoting his book in that podcast so I decided to get one and come closer to his ideas.
+I found out about Yegor by "Рабор Полетов" podcast [episode 105][link_razbor_poletov_105]. His ideas about OOP and management seemed very interesting and exciting to me also Yegor was promoting his book in that podcast so I decided to get one and come closer to his ideas.
 After reading of EO I have a couple of pros and cons of this book to share with you.
 
 Pros:
@@ -13,3 +13,5 @@ Cons:
 2. Some ideas, like `containers` and `getters`, seem to me as fictional problems and were described just to make some hype and discussions.
 
 As a result of this short review, I want to say that EO has a right to take a place in your developer library and can show another way of OOP.exciting to me also Yegor was promoting his book in that podcast so I desided to get one and come closer to his ideas.
+
+[link_razbor_poletov_105]: http://razbor-poletov.com/2016/03/episode-105.html
