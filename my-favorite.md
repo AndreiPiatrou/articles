@@ -15,6 +15,7 @@
 - [Roy Osherove, "Art of Unit Testing"][link_art_of_unit_testing]
 - ["You don't know JS"][link_you_dont_know_js]
 - [Сергей Тепляков, "Паттерны проектирования"][link_teplyakov]
+- [Yegor Bugaenko, "Elegant Objects (vol 2)"][link_eo_vol2], (my [short review](eo-vol2-review.md) of this book)
 
 [link_dev_zen]: http://devzen.ru/
 [link_razbor_poletov]: http://razbor-poletov.com/
@@ -27,3 +28,4 @@
 [link_art_of_unit_testing]: https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890
 [link_you_dont_know_js]: https://github.com/getify/You-Dont-Know-JS
 [link_teplyakov]: https://oz.by/books/more10428344.html
+[link_eo_vol2]: https://www.amazon.com/Elegant-Objects-2-Yegor-Bugayenko/dp/1534908307 
