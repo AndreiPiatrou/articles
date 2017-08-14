@@ -111,7 +111,7 @@ export default Ember.Component.extend({
 <div {{action foo2}}>foo2</button>
 ```
 
-Note: To bypass router action to controller you can use this [helper][link_router_action]. Example:
+Note: To bypass router action to component you can use this [helper][link_router_action]. Example:
 ```javascript
 // router.hbs
 {{component foo1=(router-action 'foo1') foo2=(router-action 'foo2')}}
