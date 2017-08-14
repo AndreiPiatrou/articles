@@ -6,3 +6,4 @@
 - [My favorite](my-favorite.md)
 - EmberJS
 	- [How to pass controller/router action to component](emberjs-how-to-pass-action-to-component.md)
+	- [Rollback relations](emberjs-how-to-rollback-relations.md)
