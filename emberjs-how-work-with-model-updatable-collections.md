@@ -66,6 +66,8 @@ Use `RecordsArray` and `peekAll` method:
 export default Ember.Route.extend({
 	beforeModel() {
 		this._super(...arguments);
+
+		// upload all records to prevent wrong records fetching in model hook
 		this.store.unloadAll('users');
 	},
 	model() {
@@ -78,6 +80,7 @@ export default Ember.Route.extend({
 
 //controller.js
 export default Ember.Controller.extend({
+    // note, how computed property is created
     users: Ember.computed('model.users.@each.isNew', function() {
         // here you can place any filter/sort logic that you want to perform on the client side.
         return this.get('model.users');
