@@ -7,3 +7,4 @@
 - EmberJS
 	- [How to pass controller/router action to component](emberjs-how-to-pass-action-to-component.md)
 	- [Rollback relations](emberjs-how-to-rollback-relations.md)
+	- [Ember Updatable Collections](emberjs-how-work-with-model-updatable-collections.md)
