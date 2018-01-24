@@ -4,6 +4,7 @@
 - [Time management](time-management.md)
 - [My TDD](my-tdd.md)
 - [My favorite](my-favorite.md)
+- [My VS Code Bundle](my-vs-code-bundle.md)
 - EmberJS
 	- [How to pass controller/router action to component](emberjs-how-to-pass-action-to-component.md)
 	- [Rollback relations](emberjs-how-to-rollback-relations.md)
