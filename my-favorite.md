@@ -16,6 +16,10 @@
 - ["You don't know JS"][link_you_dont_know_js]
 - [Сергей Тепляков, "Паттерны проектирования"][link_teplyakov]
 - [Yegor Bugaenko, "Elegant Objects (vol 2)"][link_eo_vol2], (my [short review](eo-vol2-review.md) of this book)
+- Юваль Ной Харари, "Sapiens: краткая история человечества"
+- Айн Рэнд, "Антант расправил плечи"
+- Теодор Драйзер, "Трилогия желания"
+- Ричард Талер и Касс Санстейн, "Nudge архитектура выбора"
 
 [link_dev_zen]: http://devzen.ru/
 [link_razbor_poletov]: http://razbor-poletov.com/
