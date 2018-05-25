@@ -20,7 +20,7 @@ function foo({ x, y } = {}) {
 function foo([ x, y ] = []) {
   ...
 };
-function foo(x, y, …args) {
+function foo(x, y, ...args) {
   ...
 };
 ```
