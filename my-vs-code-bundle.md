@@ -10,6 +10,7 @@ Usually you want to use something fast, functional and especially free text edit
 - `Jenkins Support` - in case if you work with Jenkins pipelines, it brings syntax highlighting.
 - `Markdown All in One` - very useful plugin for markdown writers.
 - `npm` - small npm integration.
+- `GitLens` - a nice plugin that extends git support with different tooltips and hints.
 
 Hope you find some useful plugins in this list! Have a nice coding! ;-)
 
