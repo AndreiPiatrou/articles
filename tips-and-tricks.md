@@ -14,13 +14,22 @@ ajax(function bindToTemplate(data) {
 ## Function parameters aggregation
 Destructive/spread operators make arguments passing more declarative and do not bring any complexity
 ```js
-function({ x, y } = {}) {
-  …
+function foo({ x, y } = {}) {
+  ...
 };
-function([ x, y ] = []) {
-  …
+function foo([ x, y ] = []) {
+  ...
 };
-function(x, y, …args) {
-  …
+function foo(x, y, …args) {
+  ...
 } 
 ```
+## Named arguments/parameters
+In case a function has a lot of arguments or, for example, most of them are optional, making a function unary and passing a single object is an option for such cases.
+ ```js
+ function foo({ x, y, z }) {
+  ...
+ }
+ 
+ foo({ y: 'y' });
+ ```
