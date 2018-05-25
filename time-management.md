@@ -20,10 +20,10 @@ There are tons of books about time management and a lot of tracking systems in t
 3. Shows hot to free up your RAM and think only about current task.
 4. How to wisely use your everyday refillable resources.
 
-Also, there are a lot of references to another more deep and theoretical literature but if you are a novice like I am, this book is a good start.
+Also, there are a lot of references to another more deep and theoretical literature but in case you are a novice like I am, this book may be a good start.
 
 ## Tools that I use
-Every developer has its own favorite toolset so here is mine.
+Everyone has its own favorite toolset so here is mine.
 
 ### Todoist
 I have tried a couple of web apps and mobile application for task management and figured out that the most suitable for me is [Todoist][link_todoist]. Its features are:
