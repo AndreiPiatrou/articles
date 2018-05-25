@@ -1,4 +1,4 @@
-# JS tips
+# JS tips and tricks
 
 ## Named functions
 Named JS functions as callback or predicates make code more readable and stack trace more clear:
