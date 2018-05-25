@@ -5,8 +5,8 @@
 - [Разбор полетов][link_razbor_poletov]
 
 ## Social networks and websites
+- youtube channels like [Coding Tech](https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ) and [freeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 - Twitter of course
-- youtube channels like [Coding tech](https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ) and [freeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 - @yegor256 telegram channel and his [blog][link_yegor_blog]
 - [Habr][link_habr]
 
@@ -20,11 +20,11 @@
 - Юваль Ной Харари, "Sapiens: краткая история человечества"
 - Айн Рэнд, "Антант расправил плечи"
 - Теодор Драйзер, "Трилогия желания"
+- Людмила Ярухина, "Финансы для нефинансистов"
 - Ричард Талер и Касс Санстейн, "Nudge архитектура выбора"
 - Тревис Бредбери и Джин Гривс, "Эмоциональный интеллект 2.0"
 - Марвин Карлинс, Джо Наварро, "Я вижу, о чём вы думаете"
 - Дейв Грей, "Лиминальное мышление: Как перейти границы своих убеждений"
-- Людмила Ярухина, "Финансы для нефинансистов"
 
 [link_dev_zen]: http://devzen.ru/
 [link_razbor_poletov]: http://razbor-poletov.com/
