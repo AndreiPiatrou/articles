@@ -26,9 +26,9 @@ EXPLAIN SELECT * FROM table WHERE "attr_1" = @attr_1 AND "attr_2" = @attr_2;
 // Index Cond: ("attr_1") = @attr_1) AND ("attr_2" = @attr_1))
 ```
 #### Tip
-Order your columns in such way to be reusable:
+Order your columns in such way to be reusable, the most relevant and usable column should go first:
 ```sql
 CREATE INDEX ON table ("attr_1", "attr_2"); 
 SELECT * FROM table WHERE "attr_1" = @attr_1; // hits the index
-SELECT * FROM table WHERE "attr_2" = @attr_2; // dose not hit the index
+SELECT * FROM table WHERE "attr_2" = @attr_2; // does not hit the index
 ```
