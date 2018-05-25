@@ -11,3 +11,5 @@
 	- [Ember Updatable Collections](emberjs-how-work-with-model-updatable-collections.md)
 - Databases
 	- [PostgreSQL multi-column indexes](pg-multi-column-index.md)
+- JavaScript
+	- [Tips and Tricks](tips-and-tricks.md)
