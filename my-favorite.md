@@ -1,13 +1,14 @@
 ## Podcasts
 - [DevZen][link_dev_zen]
-- [Разбор полетов][link_razbor_poletov]
 - [Shift-M][link_shift_m]
 - [Disgusting men][link_disgusting_men]
+- [Разбор полетов][link_razbor_poletov]
 
 ## Social networks and websites
 - Twitter of course
-- [Habr][link_habr]
+- youtube channels like [Coding tech](https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ) and [freeCodeCamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 - @yegor256 telegram channel and his [blog][link_yegor_blog]
+- [Habr][link_habr]
 
 ## Books and articles
 - [Боб Мартин, "Идеальный программист"][link_ideal_programmer]
@@ -23,6 +24,7 @@
 - Тревис Бредбери и Джин Гривс, "Эмоциональный интеллект 2.0"
 - Марвин Карлинс, Джо Наварро, "Я вижу, о чём вы думаете"
 - Дейв Грей, "Лиминальное мышление: Как перейти границы своих убеждений"
+- Людмила Ярухина, "Финансы для нефинансистов"
 
 [link_dev_zen]: http://devzen.ru/
 [link_razbor_poletov]: http://razbor-poletov.com/
