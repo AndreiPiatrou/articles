@@ -42,12 +42,12 @@ const a = { b: 1 };
 a.b = 2;
 console.log(a.b); // 2
 ```
-But `Object.freeze(..)` can help you in this approach:
+And `Object.freeze(..)` can help you in this approach:
 ```js
 const a = Object.freeze({ b: 1 });
 a.b = 2; // Error
 ```
-`Object.freeze(..)` makes an object immutable at its first level, nested objects should be *freezed* as well in case you need this. THis behavior can be achieved with some custom recursion function or with a third party library.
+`Object.freeze(..)` makes an object immutable at its first root level, nested objects should be *freezed* as well in case you need this. This behavior can be achieved with some custom recursion function or with a third party library.
 
 ## Purity and mutations
 The best choise for developer that wants to create a readable and clean code is immutability. Utilities like `[...]` and `Object.assign({}, obj)` may help you do achieve this goal but this approach leads to extra CPU and memory consumption. So that the best choise it using more sophisticated structures like ones from [Immutable.js](https://github.com/facebook/immutable-js/issues). It introduces structures like `Map` and `List` that can help you in real immutability.
