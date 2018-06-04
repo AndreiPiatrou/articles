@@ -51,3 +51,64 @@ a.b = 2; // Error
 
 ## Purity and mutations
 The best choise for developer that wants to create a readable and clean code is immutability. Utilities like `[...arr]` and `Object.assign({}, obj)` may help you do achieve this goal but this approach leads to extra CPU and memory consumption. So that the best choise it using more sophisticated structures like ones from [Immutable.js](https://github.com/facebook/immutable-js/issues). It introduces structures like `Map` and `List` that can help you in real immutability.
+
+## Recursion
+Everybody knows about recursion and its side effects that touch call stack size and memory consumption. But there are a couple of techniques on the field that can elimitate them and make your code more readable and declarative:
+- [Proper Tail Calls (PTC)](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch8.md/#proper-tail-calls-ptc)
+These are not PTC:
+```js
+foo();
+return;
+// or
+var x = foo( .. );
+return x;
+// or
+return 1 + foo( .. );
+```
+However, this is PTC:
+```js
+return x ? foo( .. ) : bar( .. );
+```
+- [Continuation Passing Style (CPS)](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch8.md/#continuation-passing-style-cps)
+```js
+"use strict";
+
+function fib(n,cont = identity) {
+    if (n <= 1) return cont( n );
+    return fib(
+        n - 2,
+        n2 => fib(
+            n - 1,
+            n1 => cont( n2 + n1 )
+        )
+    );
+}
+```
+- [Trampolines](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch8.md/#trampolines)
+```js
+function trampoline(fn) {
+    return function trampolined(...args) {
+        var result = fn( ...args );
+
+        while (typeof result == "function") {
+            result = result();
+        }
+
+        return result;
+    };
+}
+
+// and then
+var sum = trampoline(
+    function sum(num1,num2,...nums) {
+        num1 = num1 + num2;
+        if (nums.length == 0) return num1;
+        return () => sum( num1, ...nums );
+    }
+);
+
+var xs = [];
+for (let i=0; i<20000; i++) {
+    xs.push( i );
+}
+```
