@@ -112,3 +112,17 @@ for (let i=0; i<20000; i++) {
     xs.push( i );
 }
 ```
+
+## T[rue functional `filter()`](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch9.md/#filtering-confusion)
+The most interesting question about `filter()` is how _predicate_ function should be named? For example:
+```js
+[1,2,3,4,5].filter( isOdd );
+// and
+[1,2,3,4,5].filter( isEven );
+```
+It is not clear what exactly we want to do with our input: _filter out_ or _filter in_, do we want to _GET_ or _SKIP_ some array elements. Functional programming patterns and most libraries promote next implementation:
+```js
+filterIn( isOdd, [1,2,3,4,5] );         // [1,3,5]
+filterOut( isEven, [1,2,3,4,5] );       // [1,3,5]
+```
+> To clear up all this confusion, let's define a filterOut(..) that actually filters out values by internally negating the predicate check. While we're at it, we'll alias filterIn(..) to the existing filter(..):
