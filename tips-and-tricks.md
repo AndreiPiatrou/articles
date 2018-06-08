@@ -113,7 +113,7 @@ for (let i=0; i<20000; i++) {
 }
 ```
 
-## T[rue functional `filter()`](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch9.md/#filtering-confusion)
+## [True functional `filter()`](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch9.md/#filtering-confusion)
 The most interesting question about `filter()` is how _predicate_ function should be named? For example:
 ```js
 [1,2,3,4,5].filter( isOdd );
@@ -126,3 +126,56 @@ filterIn( isOdd, [1,2,3,4,5] );         // [1,3,5]
 filterOut( isEven, [1,2,3,4,5] );       // [1,3,5]
 ```
 > To clear up all this confusion, let's define a filterOut(..) that actually filters out values by internally negating the predicate check. While we're at it, we'll alias filterIn(..) to the existing filter(..):
+
+## [Fusion](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch9.md/#fusion)
+Imagine we have some array `fiter/map` chain like this:
+```js
+someList
+  .filter(..)
+  .filter(..)
+  .map(..)
+  .map(..)
+  .map(..)
+  .reduce(..);
+```
+It looks pretty nice but its performance is not hte best - we do one extra `filter` `forEach` and twu extra `map` `forEach`. To avoid this percormance suffering we can combine these `filter` and `map` predicate calls into one function per operator. For example:
+```js
+var removeInvalidChars = str => str.replace( /[^\w]*/g, "" );
+
+var upper = str => str.toUpperCase();
+
+var elide = str =>
+    str.length > 10 ?
+        str.substr( 0, 7 ) + "..." :
+        str;
+
+var words = "Mr. Jones isn't responsible for this disaster!"
+    .split( /\s/ );
+
+words;
+// ["Mr.","Jones","isn't","responsible","for","this","disaster!"]
+
+words
+.map( removeInvalidChars )
+.map( upper )
+.map( elide );
+// ["MR","JONES","ISNT","RESPONS...","FOR","THIS","DISASTER"]
+```
+
+Every array item goes through next chain:
+```js
+elide( upper( removeInvalidChars( "Mr." ) ) );
+// "MR"
+
+elide( upper( removeInvalidChars( "responsible" ) ) );
+// "RESPONS..."
+```
+You may already catched the point that we can `pipe` all this `map()` predicates with `pipe`, do not like `compose` personally, so let's do it with `pipe`:
+```js
+words
+.map(
+    pipe( removeInvalidChars, upper, elide )
+);
+// ["MR","JONES","ISNT","RESPONS...","FOR","THIS","DISASTER"]
+```
+We got the same result by more efficient, declarative and performance-wise way.
