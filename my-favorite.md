@@ -25,6 +25,7 @@
 - Тревис Бредбери и Джин Гривс, "Эмоциональный интеллект 2.0"
 - Марвин Карлинс, Джо Наварро, "Я вижу, о чём вы думаете"
 - Дейв Грей, "Лиминальное мышление: Как перейти границы своих убеждений"
+- [Functional-Light-JS](https://github.com/getify/Functional-Light-JS)
 
 [link_dev_zen]: http://devzen.ru/
 [link_razbor_poletov]: http://razbor-poletov.com/
