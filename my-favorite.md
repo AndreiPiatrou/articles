@@ -1,6 +1,7 @@
 ## Podcasts
 - [DevZen][link_dev_zen]
 - [Shift-M][link_shift_m]
+- [JS Podcast](https://devchat.tv/js-jabber)
 - [Disgusting men][link_disgusting_men]
 - [Разбор полетов][link_razbor_poletov]
 
